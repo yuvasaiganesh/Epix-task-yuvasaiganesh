@@ -1,0 +1,65 @@
+li{
+    list-style-type: none;
+}
+
+h2{
+ font-size:10vw
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    width:90vw;
+    max-width: 600px;
+    background-color: aliceblue;
+    justify-content: space-between;
+    min-height:300px;
+    margin: 5vw;
+    padding: 5vw;
+  }
+  select {
+    width: 80vw;
+    max-width:400px;
+    padding: 2px;
+    font-size: 6vw;
+  }
+  
+  button {
+    width: 60vw;
+    max-width:150px;
+    padding: 2px;
+    font-size: 6vw;
+    
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  p{
+    font-size:6vw
+  }
+  span{
+    color:Green;
+    padding: 5px;
+    font-weight: bold;
+  }
+  tbody{
+  text-align: center;
+  color: green;
+  }
+
+  @media screen and (min-width:350px){
+    p{
+    font-size: 15px;
+    color:#000000;
+    font-weight: bold;
+    }
+    h2{
+        font-size:30px
+       }
+       button{
+        font-size:18px
+       }
+       select{
+        font-size: 15px;
+       }
+  }
